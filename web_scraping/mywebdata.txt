@@ -1,0 +1,1338 @@
+
+
+  
+  
+
+  PHP: Hypertext Preprocessor
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+  
+    
+    
+    
+    
+      Downloads
+      Documentation
+      Get Involved
+      Help
+    
+    
+      
+      
+    
+  
+  
+
+
+Getting Started
+	Introduction
+	A simple tutorial
+Language Reference
+	Basic syntax
+	Types
+	Variables
+	Constants
+	Expressions
+	Operators
+	Control Structures
+	Functions
+	Classes and Objects
+	Namespaces
+	Errors
+	Exceptions
+	Generators
+	References Explained
+	Predefined Variables
+	Predefined Exceptions
+	Predefined Interfaces and Classes
+	Context options and parameters
+	Supported Protocols and Wrappers
+
+
+Security
+	Introduction
+	General considerations
+	Installed as CGI binary
+	Installed as an Apache module
+	Session Security
+	Filesystem Security
+	Database Security
+	Error Reporting
+	Using Register Globals
+	User Submitted Data
+	Magic Quotes
+	Hiding PHP
+	Keeping Current
+Features
+	HTTP authentication with PHP
+	Cookies
+	Sessions
+	Dealing with XForms
+	Handling file uploads
+	Using remote files
+	Connection handling
+	Persistent Database Connections
+	Safe Mode
+	Command line usage
+	Garbage Collection
+	DTrace Dynamic Tracing
+
+
+Function Reference
+	Affecting PHP's Behaviour
+	Audio Formats Manipulation
+	Authentication Services
+	Command Line Specific Extensions
+	Compression and Archive Extensions
+	Credit Card Processing
+	Cryptography Extensions
+	Database Extensions
+	Date and Time Related Extensions
+	File System Related Extensions
+	Human Language and Character Encoding Support
+	Image Processing and Generation
+	Mail Related Extensions
+	Mathematical Extensions
+	Non-Text MIME Output
+	Process Control Extensions
+	Other Basic Extensions
+	Other Services
+	Search Engine Extensions
+	Server Specific Extensions
+	Session Extensions
+	Text Processing
+	Variable and Type Related Extensions
+	Web Services
+	Windows Only Extensions
+	XML Manipulation
+	GUI Extensions
+
+
+Keyboard Shortcuts?
+This help
+j
+Next menu item
+k
+Previous menu item
+g p
+Previous man page
+g n
+Next man page
+G
+Scroll to bottom
+g g
+Scroll to top
+g h
+Goto homepage
+g s
+Goto search(current page)
+/
+Focus search box
+
+
+    
+         
+         
+   
+
+
+
+
+
+  
+      
+    
+      PHP is a popular general-purpose scripting language that is especially suited to web development.
+      Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
+    
+    
+      Download
+
+            7.1.30·Release Notes·Upgrading
+
+            7.2.20·Release Notes·Upgrading
+
+            7.3.7·Release Notes·Upgrading
+
+    
+    
+
+
+
+
+  
+
+  
+    04 Jul 2019
+    
+      PHP 7.2.20 Released
+    
+  
+  
+    
+     The PHP development team announces the immediate availability of PHP 7.2.20.
+     This is a bugfix release.
+
+     All PHP 7.2 users are encouraged to upgrade to this version.
+
+     For source downloads of PHP 7.2.20 please visit our downloads page,
+     Windows source and binaries can be found on windows.php.net/download/.
+     The list of changes is recorded in the ChangeLog.
+     
+    
+  
+  
+
+  
+    04 Jul 2019
+    
+      PHP 7.3.7 Release Announcement
+    
+  
+  
+    
+      The PHP development team announces the immediate availability of PHP
+      7.3.7. This is a bug fix release.
+    
+      All PHP 7.3 users are encouraged to upgrade to this version.
+    
+      For source downloads of PHP 7.3.7 please visit our downloads page,
+      Windows source and binaries can be found on windows.php.net/download/.
+      The list of changes is recorded in the ChangeLog.
+      
+    
+  
+  
+
+  
+    26 Jun 2019
+    
+      PHP 7.4.0 alpha 2 Released
+    
+  
+  
+    
+     
+     PHP team is glad to announce the release of the second PHP 7.4.0 version, PHP 7.4.0 Alpha 2.
+     This continues the PHP 7.4 release cycle, the rough outline of which is specified in the
+     PHP Wiki.
+     
+     
+     For source downloads of PHP 7.4.0 Alpha 2 please visit the download page.
+     
+     
+     Please carefully test this version and report any issues found in the bug reporting system.
+     
+     
+     
+     Please DO NOT use this version in production, it is an early test version.
+     
+     
+     
+         For more information on the new features and other changes, you can read the
+         NEWS file,
+         or the UPGRADING
+         file for a complete list of upgrading notes. These files can also be found in the release archive.
+     
+     
+     
+     The next release would be Alpha 3, planned for July 11th.
+     
+     
+     The signatures for the release can be found in the manifest or on the
+     QA site.
+     
+     
+     Thank you for helping us make PHP better.
+    
+  
+  
+
+  
+    13 Jun 2019
+    
+      PHP 7.4.0 alpha 1 Released
+    
+  
+  
+    
+     
+     PHP team is glad to announce the release of the first PHP 7.4.0 version, PHP 7.4.0 Alpha 1.
+     This starts the PHP 7.4 release cycle, the rough outline of which is specified in the
+     PHP Wiki.
+     
+     
+     For source downloads of PHP 7.4.0 Alpha 1 please visit the download page.
+     
+     
+     Please carefully test this version and report any issues found in the bug reporting system.
+     
+     
+     
+     Please DO NOT use this version in production, it is an early test version.
+     
+     
+     
+         For more information on the new features and other changes, you can read the
+         NEWS file,
+         or the UPGRADING
+         file for a complete list of upgrading notes. These files can also be found in the release archive.
+     
+     
+     
+     The next release would be Alpha 2, planned for June 27.
+     
+     
+     The signatures for the release can be found in the manifest or on the
+     QA site.
+     
+     
+     Thank you for helping us make PHP better.
+    
+  
+  
+
+  
+    30 May 2019
+    
+      PHP 7.1.30 Released
+    
+  
+  
+    
+       The PHP development team announces the immediate availability of PHP
+       7.1.30. This is a security release.
+     
+       All PHP 7.1 users are encouraged to upgrade to this version.
+     
+       For source downloads of PHP 7.1.30 please visit our downloads page,
+       Windows source and binaries can be found on windows.php.net/download/.
+       The list of changes is recorded in the ChangeLog.
+       
+    
+  
+  
+
+  
+    30 May 2019
+    
+      PHP 7.2.19 Release Announcement
+    
+  
+  
+    
+     The PHP development team announces the immediate availability of PHP 7.2.19.
+     This is a security release which also contains several minor bug fixes.
+     
+     All PHP 7.2 users are encouraged to upgrade to this version.
+     
+     For source downloads of PHP 7.2.19 please visit our downloads page,
+     Windows source and binaries can be found on windows.php.net/download/.
+     The list of changes is recorded in the ChangeLog.
+     
+    
+  
+  
+
+  
+    30 May 2019
+    
+      PHP 7.3.6 Release Announcement
+    
+  
+  
+    
+      The PHP development team announces the immediate availability of PHP
+      7.3.6. This is a security release which also contains several bug fixes.
+
+      All PHP 7.3 users are encouraged to upgrade to this version.
+
+      For source downloads of PHP 7.3.6 please visit our downloads page,
+      Windows source and binaries can be found on windows.php.net/download/.
+      The list of changes is recorded in the ChangeLog.
+      
+    
+  
+  
+
+  
+    03 May 2019
+    
+      PHP 7.1.29 Released
+    
+  
+  
+    
+       The PHP development team announces the immediate availability of PHP
+       7.1.29. This is a security release.
+     
+       All PHP 7.1 users are encouraged to upgrade to this version.
+     
+       For source downloads of PHP 7.1.29 please visit our downloads page,
+       Windows source and binaries can be found on windows.php.net/download/.
+       The list of changes is recorded in the ChangeLog.
+       
+    
+  
+  
+
+  
+    22 Nov 2018
+    
+      PHP 7.3.0RC6 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the presumably last PHP 7.3.0 pre-release, PHP 7.3.0RC6.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0RC6 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. Internal changes are listed in the
+        UPGRADING.INTERNALS file.
+        These files can also be found in the release archive.
+      
+
+      
+        The next release would be 7.3.0 (GA), planned for December 6th.
+      
+
+      
+        The signatures for the release can be found in the manifest
+        or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+    
+  
+  
+
+  
+    08 Nov 2018
+    
+      PHP 7.3.0RC5 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the next PHP 7.3.0 pre-release, PHP 7.3.0RC5.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0RC5 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. Internal changes are listed in the
+        UPGRADING.INTERNALS file.
+        These files can also be found in the release archive.
+      
+
+      
+        The next release would be RC6, planned for November 22nd.
+      
+
+      
+        The signatures for the release can be found in the manifest
+        or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+    
+  
+  
+
+  
+    25 Oct 2018
+    
+      PHP 7.3.0RC4 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the next PHP 7.3.0 pre-release, PHP 7.3.0RC4.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0RC4 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. Internal changes are listed in the
+        UPGRADING.INTERNALS file.
+        These files can also be found in the release archive.
+      
+
+      
+        The next release would be RC5, planned for November 8th.
+      
+
+      
+        The signatures for the release can be found in the manifest
+        or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+    
+  
+  
+
+  
+    11 Oct 2018
+    
+      PHP 7.3.0RC3 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the next PHP 7.3.0 pre-release, PHP 7.3.0RC3.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0RC3 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. Internal changes are listed in the
+        UPGRADING.INTERNALS file.
+        These files can also be found in the release archive.
+      
+
+      
+        The next release would be RC4, planned for October 25th.
+      
+
+      
+        The signatures for the release can be found in the manifest
+        or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+    
+  
+  
+
+  
+    28 Sep 2018
+    
+      PHP 7.3.0RC2 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the next PHP 7.3.0 pre-release, PHP 7.3.0RC2.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0RC2 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. Internal changes are listed in the
+        UPGRADING.INTERNALS file.
+        These files can also be found in the release archive.
+      
+
+      
+        The next release would be RC3, planned for October 11th.
+      
+
+      
+        The signatures for the release can be found in the manifest
+        or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+    
+  
+  
+
+  
+    13 Sep 2018
+    
+      PHP 7.3.0RC1 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the release of the next PHP 7.3.0 pre-release, PHP 7.3.0RC1.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0RC1 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. Internal changes are listed in the
+        UPGRADING.INTERNALS file.
+        These files can also be found in the release archive.
+      
+
+      
+        The next release would be RC2, planned for September 27th.
+      
+
+      
+        The signatures for the release can be found in the manifest
+        or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+    
+  
+  
+
+  
+    30 Aug 2018
+    
+      PHP 7.3.0.beta3 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the release of the seventh PHP 7.3.0 version, PHP 7.3.0beta3.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0beta3 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. Internal changes are listed in the
+        UPGRADING.INTERNALS file.
+        These files can also be found in the release archive.
+      
+
+      
+        The next release would be RC1, planned for September 13th.
+      
+
+      
+        The signatures for the release can be found in the manifest
+        or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+    
+  
+  
+
+  
+    16 Aug 2018
+    
+      PHP 7.3.0.beta2 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the release of the sixth PHP 7.3.0 version, PHP 7.3.0beta2.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0beta2 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. Internal changes are listed in the
+        UPGRADING.INTERNALS file.
+        These files can also be found in the release archive.
+      
+
+      
+        The next release would be Beta 3, planned for August 30th.
+      
+
+      
+        The signatures for the release can be found in the manifest
+        or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+    
+  
+  
+
+  
+    02 Aug 2018
+    
+      PHP 7.3.0.beta1 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the release of the fifth PHP 7.3.0 version, PHP 7.3.0beta1.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0beta1 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. These files can also be found in the release archive.
+      
+
+      
+        The next release would be Beta 2, planned for August 16th.
+      
+
+      
+        The signatures for the release can be found in the manifest
+        or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+
+    
+  
+  
+
+  
+    19 Jul 2018
+    
+      PHP 7.3.0alpha4 Released
+    
+  
+  
+    
+      
+        The PHP team is glad to announce the release of the fourth PHP 7.3.0 version, PHP 7.3.0alpha4.
+        The rough outline of the PHP 7.3 release cycle is specified in the
+        PHP Wiki.
+      
+
+      
+        For source downloads of PHP 7.3.0alpha4 please visit the download page.
+        Windows sources and binaries can be found on windows.php.net/qa/.
+      
+
+      
+        Please carefully test this version and report any issues found in the bug reporting system.
+      
+
+      
+        THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+      
+
+      
+        For more information on the new features and other changes, you can read the
+        NEWS file,
+        or the UPGRADING
+        file for a complete list of upgrading notes. These files can also be found in the release archive.
+      
+
+      
+        The next release would be Beta 1, planned for August 2nd.
+      
+
+      
+        The signatures for the release can be found in the manifest or on the QA site.
+      
+
+      
+        Thank you for helping us make PHP better.
+      
+    
+  
+  
+
+  
+    05 Jul 2018
+    
+      PHP 7.3.0 alpha 3 Released
+    
+  
+  
+    
+     
+      The PHP team is glad to announce the release of the third PHP 7.3.0 version, PHP 7.3.0 Alpha 3.
+      The rough outline of the PHP 7.3 release cycle is specified in the
+      PHP Wiki.
+     
+
+     
+      For source downloads of PHP 7.3.0 Alpha 3 please visit the download page.
+      Windows sources and binaries can be found on windows.php.net/qa/.
+     
+
+     
+      Please carefully test this version and report any issues found in the bug reporting system.
+     
+
+     
+      THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+     
+
+     
+      For more information on the new features and other changes, you can read the
+      NEWS file,
+      or the UPGRADING
+      file for a complete list of upgrading notes. These files can also be found in the release archive.
+     
+
+     
+      The next release would be Beta 1, planned for July 19th.
+     
+
+     
+      The signatures for the release can be found in the manifest or on the QA site.
+     
+
+     
+      Thank you for helping us make PHP better.
+     
+    
+  
+  
+
+  
+    21 Jun 2018
+    
+      PHP 7.3.0 alpha 2 Released
+    
+  
+  
+    
+     
+      The PHP team is glad to announce the release of the second PHP 7.3.0 version, PHP 7.3.0 Alpha 2.
+      The rough outline of the PHP 7.3 release cycle is specified in the
+      PHP Wiki.
+     
+
+     
+      For source downloads of PHP 7.3.0 Alpha 2 please visit the download page.
+      Windows sources and binaries can be found on windows.php.net/qa/.
+     
+
+     
+      Please carefully test this version and report any issues found in the bug reporting system.
+     
+
+     
+      THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+     
+
+     
+      For more information on the new features and other changes, you can read the
+      NEWS file,
+      or the UPGRADING
+      file for a complete list of upgrading notes. These files can also be found in the release archive.
+     
+
+     
+      The next release would be Alpha 3, planned for July 5.
+     
+
+     
+      The signatures for the release can be found in the manifest or on the QA site.
+     
+
+     
+      Thank you for helping us make PHP better.
+     
+    
+  
+  
+
+  
+    07 Jun 2018
+    
+      PHP 7.3.0 alpha 1 Released
+    
+  
+  
+    
+     
+     PHP team is glad to announce the release of the first PHP 7.3.0 version, PHP 7.3.0 Alpha 1.
+	 This starts the PHP 7.3 release cycle, the rough outline of which is specified in the
+	 PHP Wiki.
+     
+
+     For source downloads of PHP 7.3.0 Alpha 1 please visit the download page.
+
+     
+     Please carefully test this version and report any issues found in the bug reporting system.
+     
+
+     
+     Please DO NOT use this version in production, it is an early test version.
+     
+
+     
+	     For more information on the new features and other changes, you can read the
+	     NEWS file,
+	     or the UPGRADING
+	     file for a complete list of upgrading notes. These files can also be found in the release archive.
+	 
+
+     
+     The next release would be Alpha 2, planned for June 21.
+     
+
+     The signatures for the release can be found in the manifest or on the QA site.
+     
+
+     Thank you for helping us make PHP better.
+    
+  
+  
+
+  
+    01 Feb 2018
+    
+      PHP 7.2.2 Released
+    
+  
+  
+    
+      The PHP development team announces the immediate availability of PHP
+      7.2.2. This is a bugfix release, with several bug fixes included.
+
+      All PHP 7.2 users are encouraged to upgrade to this version.
+
+      For source downloads of PHP 7.2.2 please visit our downloads page,
+      Windows source and binaries can be found on windows.php.net/download/.
+      The list of changes is recorded in the ChangeLog.
+      
+    
+  
+  
+
+  
+    12 Oct 2017
+    
+      PHP 7.2.0 Release Candidate 4 Released
+    
+  
+  
+    
+     
+     The PHP development team announces the immediate availability of PHP 7.2.0 RC4.
+     This release is the fourth Release Candidate for 7.2.0.
+     All users of PHP are encouraged to test this version carefully, and report any bugs
+     and incompatibilities in the bug tracking system.
+     
+
+     THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+
+     
+     For more information on the new features and other changes, you can read the
+     NEWS file,
+     or the UPGRADING
+     file for a complete list of upgrading notes. These files can also be found in the release archive.
+     
+
+     
+     For source downloads of PHP 7.2.0 Release Candidate 4 please visit the
+     download page,
+     Windows sources and binaries can be found at
+     windows.php.net/qa/.
+     
+
+     
+     The next Release Candidate will be announced on the 26th of October.
+     You can also read the full list of planned releases on
+     our wiki.
+     
+
+     Thank you for helping us make PHP better.
+    
+  
+  
+
+  
+    28 Sep 2017
+    
+      PHP 7.2.0 Release Candidate 3 Released
+    
+  
+  
+    
+     
+     The PHP development team announces the immediate availability of PHP 7.2.0 RC3.
+     This release is the third Release Candidate for 7.2.0.
+     All users of PHP are encouraged to test this version carefully, and report any bugs
+     and incompatibilities in the bug tracking system.
+     
+
+     THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+
+     
+     For more information on the new features and other changes, you can read the
+     NEWS file,
+     or the UPGRADING
+     file for a complete list of upgrading notes. These files can also be found in the release archive.
+     
+
+     
+     For source downloads of PHP 7.2.0 Release Candidate 3 please visit the
+     download page,
+     Windows sources and binaries can be found at
+     windows.php.net/qa/.
+     
+
+     
+     The next Release Candidate will be announced on the 12th of October.
+     You can also read the full list of planned releases on
+     our wiki.
+     
+
+     Thank you for helping us make PHP better.
+    
+  
+  
+
+  
+    31 Aug 2017
+    
+      PHP 7.2.0 Release Candidate 1 Released
+    
+  
+  
+    
+      
+      The PHP development team announces the immediate availability of PHP 7.2.0 Release
+      Candidate 1. This release is the first Release Candidate for 7.2.0.
+      All users of PHP are encouraged to test this version carefully, and report any bugs
+      and incompatibilities in the bug tracking system.
+      
+
+      THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+
+      
+      For more information on the new features and other changes, you can read the
+      NEWS file,
+      or the UPGRADING
+      file for a complete list of upgrading notes. These files can also be found in the release archive.
+      
+
+      
+      For source downloads of PHP 7.2.0 Release Candidate 1 please visit the
+      download page,
+      Windows sources and binaries can be found at
+      windows.php.net/qa/.
+      
+
+      
+      The second Release Candidate will be released on the 14th of September.
+      You can also read the full list of planned releases on
+      our wiki.
+      
+
+      Thank you for helping us make PHP better.
+    
+  
+  
+
+  
+    17 Aug 2017
+    
+      PHP 7.2.0 Beta 3 Released
+    
+  
+  
+    
+      
+      The PHP development team announces the immediate availability of PHP 7.2.0 Beta 3.
+      This release is the third and final beta for 7.2.0. All users of PHP are encouraged
+      to test this version carefully, and report any bugs and incompatibilities in the
+      bug tracking system.
+      
+
+      THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+
+      
+      For more information on the new features and other changes, you can read the
+      NEWS file,
+      or the UPGRADING
+      file for a complete list of upgrading notes. These files can also be found in the release archive.
+      
+
+      
+      For source downloads of PHP 7.2.0 Beta 3 please visit the
+      download page,
+      Windows sources and binaries can be found at
+      windows.php.net/qa/.
+      
+
+      
+      The first Release Candidate will be released on the 31th of August.
+      You can also read the full list of planned releases on
+      our wiki.
+      
+
+      Thank you for helping us make PHP better.
+    
+  
+  
+
+  
+    06 Jul 2017
+    
+      PHP 7.2.0 Alpha 3 Released
+    
+  
+  
+    
+     The PHP development team announces the immediate availability of PHP 7.2.0 Alpha 3.
+     This release contains fixes and improvements relative to Alpha 2.
+     All users of PHP are encouraged to test this version carefully,
+     and report any bugs and incompatibilities in the
+     bug tracking system.
+
+     THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+
+     For information on new features and other changes, you can read the
+     NEWS file,
+     or the UPGRADING file
+     for a complete list of upgrading notes. These files can also be found in the release archive.
+
+     For source downloads of PHP 7.2.0 Alpha 3 please visit the download page,
+     Windows sources and binaries can be found on windows.php.net/qa/.
+
+     The first beta will be released on the 20th of July. You can also read the full list of planned releases on our
+     wiki.
+
+     Thank you for helping us make PHP better.
+    
+  
+  
+Older News Entries    
+    
+
+    
+  Upcoming conferencesThe 7th Annual China PHP ConferenceLaravelConf Taiwan 2019 announcementInternational PHP Conference 2019 - Fall EditionCakeFest 2019 Tokyo Japan, the Official CakePHP Conference
+    User Group Events
+    Special Thanks
+    
+      Social media
+      
+        
+          
+            
+              
+              @official_php
+            
+          
+        
+      
+    
+
+
+
+  
+
+  
+    
+      
+      
+        Copyright © 2001-2019 The PHP Group
+        My PHP.net
+        Contact
+        Other PHP.net sites
+        Privacy policy
+      
+      
+    
+  
+
+    
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
